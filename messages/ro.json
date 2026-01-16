@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "menu": "Meniu",
+    "services": "Servicii",
+    "projects": "Proiecte",
+    "about": "Despre noi",
+    "contact": "Contact",
+    "underConstruction": "Această secțiune este în construcție. Vă rugăm să reveniți mai târziu.",
+    "close": "Închide"
+  },
+  "hero": {
+    "slide1": "Cream branduri puternice",
+    "slide2": "Design. Strategie. Impact.",
+    "slide3": "Digital. Clar. Memorabil."
+  },
+  "mission": {
+    "title": "Misiune",
+    "description": "La Nexpals, misiunea noastră este să creăm site-uri web și identități de brand care stârnesc emoție. Colaborăm cu branduri ambițioase, care apreciază designul de calitate, performanța și atenția la detalii. Nu este vorba doar despre un website. Este despre strategie, execuție și victorie"
+  },
+  "services": {
+    "title": "Servicii",
+    "subtitle": "Soluții complete pentru nevoile digitale ale afacerii dvs.",
+    "webDevelopment": {
+      "title": "Dezvoltare Web",
+      "description": "Aplicații web moderne, rapide și scalabile, construite cu tehnologii de ultimă generație"
+    },
+    "design": {
+      "title": "Design & UX",
+      "description": "Interfețe elegante, intuitive și optimizate pentru conversie și satisfacere maximă a utilizatorului"
+    },
+    "mobile": {
+      "title": "Aplicații Mobile",
+      "description": "Soluții native și cross-platform pentru iOS și Android, cu performanțe premium"
+    },
+    "consulting": {
+      "title": "Consultanță Tech",
+      "description": "Strategii digitale personalizate, arhitectură software și optimizare pentru creșterea business-ului"
+    },
+    "ecommerce": {
+      "title": "E-Commerce",
+      "description": "Platforme de vânzări online complete, optimizate pentru conversie și experiență utilizator premium"
+    },
+    "branding": {
+      "title": "Branding & Identity",
+      "description": "Identități vizuale puternice și memorabile care diferențiază brandul dvs. pe piață"
+    }
+  },
+  "portfolio": {
+    "title": "Proiecte",
+    "subtitle": "Creăm experiențe digitale care fac diferența",
+    "viewProject": "Vezi proiectul"
+  },
+  "whyUs": {
+    "title": "De ce noi",
+    "subtitle": "Diferențiatorii care ne fac speciali",
+    "excellence": {
+      "title": "Excelență",
+      "description": "Standarde înalte în fiecare proiect, fără compromisuri"
+    },
+    "innovation": {
+      "title": "Inovație",
+      "description": "Tehnologii de vârf și abordări creative pentru soluții unice"
+    },
+    "partnership": {
+      "title": "Parteneriat",
+      "description": "Colaborăm strâns pentru a transforma viziunea dvs. în realitate"
+    },
+    "results": {
+      "title": "Rezultate",
+      "description": "Orientare constantă către obiectivele și succesul business-ului"
+    }
+  },
+  "process": {
+    "heading": "De la bază la revoluție. Procesul nostru urmează un plan clar. Începem cu o **strategie** clară, trecem prin **design** premiu, și finalizăm cu **dezvoltare** de înaltă performanță. Pas cu pas, creăm site-uri care nu doar arată bine, ci servesc un scop, stârnesc emoții și generează impact real în business.",
+    "strategy": {
+      "title": "Strategie",
+      "duration": "3-4 săptămâni",
+      "description": "Într-un workshop cuprinzător, stabilim baza împreună. Prin analiza afacerii tale, dezvoltăm o strategie clară pentru website și copywriting convingător – formând un concept de storytelling psihologic, fin ajustat obiectivelor tale de business."
+    },
+    "design": {
+      "title": "Design",
+      "duration": "4-6 săptămâni",
+      "description": "Construind pe fundația strategică, servim lovitura câștigătoare – design-ul web. Fiecare detaliu este creat cu atenție pentru a crea o experiență imersivă. Captează audiența țintă, stârnind emoție cu brandul tău."
+    },
+    "development": {
+      "title": "Dezvoltare",
+      "duration": "3-4 săptămâni",
+      "description": "Website-ul tău va fi dezvoltat custom sau prin CMS-uri populare. Cu precizia serviciului unui campion, ne concentrăm pe dezvoltare orientată spre performanță, asigurând că site-ul tău oferă o experiență fluidă, rapidă și fiabilă care menține brandul tău în top."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "duration": "Continuu",
+      "description": "Strategii de marketing digital personalizate pentru a-ți aduce brandul în fața publicului corect. Dezvoltăm campanii eficiente care generează trafic, construiesc autoritate și transformă vizitatori în clienți fideli pentru business-ul tău."
+    },
+    "photoVideo": {
+      "title": "Foto/Video",
+      "duration": "La cerere",
+      "description": "Conținut vizual premium care spune povestea brandului tău. De la fotografie de produs la videoclipuri corporate și materiale pentru social media, creăm imagini și video-uri care captează atenția și transmite mesajul tău cu impact."
+    },
+    "cybersecurity": {
+      "title": "Securitate cibernetică",
+      "duration": "Continuu",
+      "description": "Protejăm activul digital al business-ului tău cu soluții de securitate de ultimă generație. Monitorizăm, analizăm și prevenim amenințările cibernetice, asigurând confidențialitatea datelor și continuitatea operațională a proiectelor tale."
+    }
+  },
+  "testimonials": {
+    "title": "Ce spun clienții",
+    "subtitle": "Poveștile de succes ale partenerilor noștri"
+  },
+  "cta": {
+    "title": "Hai să lucrăm împreună",
+    "subtitle": "Contactează-ne și transformăm ideile tale în realitate digitală",
+    "button": "Solicită ofertă"
+  },
+  "footer": {
+    "description": "Transformăm ideile în experiențe digitale excepționale. Soluții premium pentru business-uri de toate dimensiunile.",
+    "navigation": "Navigare",
+    "legal": "Legal",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni și condiții",
+    "cookies": "Politica cookie-uri",
+    "social": "Social Media",
+    "rights": "Toate drepturile rezervate"
+  },
+  "notFound": {
+    "title": "Pagina nu a fost găsită",
+    "description": "Pagina pe care o căutați nu există sau a fost mutată.",
+    "button": "Mergi la Pagina Principală"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "description": "Prin apăsarea butonului \"Acceptă\", sunteți de acord cu stocarea cookie-urilor pe dispozitivul dvs. pentru a îmbunătăți navigarea pe site, a analiza utilizarea site-ului și a sprijini activitățile noastre de marketing.",
+    "accept": "Acceptă",
+    "deny": "Refuză",
+    "preferences": "Preferințe",
+    "preferencesTitle": "Gestionare Preferințe Cookie",
+    "close": "Închide",
+    "essentials": "Esențiale",
+    "alwaysActive": "Întotdeauna active",
+    "essentialsDescription": "Necesare pentru funcționarea site-ului. Întotdeauna active.",
+    "marketing": "Marketing",
+    "marketingDescription": "Folosite pentru publicitate țintită.",
+    "personalization": "Personalizare",
+    "personalizationDescription": "Reține preferințele dvs. și oferă funcții îmbunătățite.",
+    "analytics": "Analiză",
+    "analyticsDescription": "Măsoară utilizarea și îmbunătățește experiența dvs.",
+    "rejectAll": "Respinge tot",
+    "acceptAll": "Acceptă tot"
+  }
+}

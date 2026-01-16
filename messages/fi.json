@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "menu": "Valikko",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "underConstruction": "Tämä osio on rakenteilla. Tarkista myöhemmin.",
+    "close": "Sulje"
+  },
+  "hero": {
+    "slide1": "Luomme voimakkaita brändejä",
+    "slide2": "Design. Strategia. Vaikutus.",
+    "slide3": "Digitaalinen. Selkeä. Muistettava."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Complete solutions for your business digital needs",
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Modern, fast and scalable web applications, built with next-generation technologies"
+    },
+    "design": {
+      "title": "Design & UX",
+      "description": "Elegant, intuitive interfaces optimized for conversion and maximum user satisfaction"
+    },
+    "mobile": {
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform solutions for iOS and Android, with premium performance"
+    },
+    "consulting": {
+      "title": "Tech Consulting",
+      "description": "Custom digital strategies, software architecture and optimization for business growth"
+    },
+    "ecommerce": {
+      "title": "E-Commerce",
+      "description": "Complete online sales platforms, optimized for conversion and premium user experience"
+    },
+    "branding": {
+      "title": "Branding & Identity",
+      "description": "Strong and memorable visual identities that differentiate your brand in the market"
+    }
+  },
+  "portfolio": {
+    "title": "Projects",
+    "subtitle": "We create digital experiences that make a difference",
+    "viewProject": "View project"
+  },
+  "whyUs": {
+    "title": "Why us",
+    "subtitle": "Differentiators that make us special",
+    "excellence": {
+      "title": "Excellence",
+      "description": "High standards in every project, without compromise"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    },
+    "partnership": {
+      "title": "Partnership",
+      "description": "We work closely to transform your vision into reality"
+    },
+    "results": {
+      "title": "Results",
+      "description": "Constant focus on business goals and success"
+    }
+  },
+  "process": {
+    "heading": "From baseline to breakthrough. Our process follows a straight game plan. Starting with clear **strategy**, moving through award-winning **design**, and finishing with high-performance **development**. Step by step, we craft websites that do more than just look good, but serve a purpose, spark emotions, and drive real business impact.",
+    "strategy": {
+      "title": "Strategy",
+      "duration": "3-4 weeks",
+      "description": "In a comprehensive workshop, we'll set the baseline together. By analyzing your business, we develop a clear website strategy and compelling copywriting – forming a psychological storytelling concept that's finely tuned to your business goals."
+    },
+    "design": {
+      "title": "Design",
+      "duration": "4-6 weeks",
+      "description": "Building on the strategic foundation, we serve the winning shot – the web design. Every detail is carefully crafted to create an immersive experience. It captivates your target audience, sparking excitement with your brand."
+    },
+    "development": {
+      "title": "Development",
+      "duration": "3-4 weeks",
+      "description": "Your website will be developed custom or through popular CMS platforms. With the precision of a champion's serve, we focus on performance-driven development, ensuring your site delivers a seamless, fast, and reliable experience that keeps your brand at the top of its game."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "duration": "Ongoing",
+      "description": "Personalized digital marketing strategies to bring your brand in front of the right audience. We develop effective campaigns that generate traffic, build authority and transform visitors into loyal customers for your business."
+    },
+    "photoVideo": {
+      "title": "Photo/Video",
+      "duration": "On demand",
+      "description": "Premium visual content that tells your brand story. From product photography to corporate videos and social media materials, we create images and videos that capture attention and convey your message with impact."
+    },
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "duration": "Ongoing",
+      "description": "We protect your business digital assets with cutting-edge security solutions. We monitor, analyze and prevent cyber threats, ensuring data confidentiality and operational continuity of your projects."
+    }
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "subtitle": "Success stories from our partners"
+  },
+  "cta": {
+    "title": "Työskennellään yhdessä",
+    "subtitle": "Ota yhteyttä ja muunnamme ideasi digitaaliseksi todellisuudeksi",
+    "button": "Ota yhteyttä"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookie Policy",
+    "social": "Social Media",
+    "rights": "All rights reserved",
+    "description": "Muunnamme ideat poikkeuksellisiksi digitaalisiksi kokemuksiksi. Premium-ratkaisut kaiken kokoisille yrityksille."
+  },
+  "mission": {
+    "title": "Tehtävä",
+    "description": "Nexpalsissa tehtävämme on luoda verkkosivustoja ja brändi-identiteettejä, jotka herättävät tunteita. Teemme yhteistyötä kunnianhimokkaiden brändien kanssa, jotka arvostavat laadukasta suunnittelua, suorituskykyä ja huomiota yksityiskohtiin. Kyse ei ole vain verkkosivustosta. Kyse on strategiasta, toteutuksesta ja voitosta"
+  },
+  "notFound": {
+    "title": "Sivua ei löytynyt",
+    "description": "Etsimäsi sivu ei ole olemassa tai se on siirretty.",
+    "button": "Siirry etusivulle"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "description": "By clicking \"Accept\", you agree to the storage of cookies on your device to improve navigation on the website, to analyze the use of the website and to support our marketing activities.",
+    "accept": "Accept",
+    "deny": "Deny",
+    "preferences": "Preferences",
+    "preferencesTitle": "Manage Consent Preferences",
+    "close": "Close",
+    "essentials": "Essentials",
+    "alwaysActive": "Always active",
+    "essentialsDescription": "Necessary for the site to function. Always On.",
+    "marketing": "Marketing",
+    "marketingDescription": "Used for targeted advertising.",
+    "personalization": "Personalization",
+    "personalizationDescription": "Remembers your preferences and provides enhanced features.",
+    "analytics": "Analytics",
+    "analyticsDescription": "Measures usage and improves your experience.",
+    "rejectAll": "Reject All",
+    "acceptAll": "Accept All"
+  }
+}

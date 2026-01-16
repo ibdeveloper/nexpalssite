@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "underConstruction": "Esta seção está em construção. Por favor, volte mais tarde.",
+    "close": "Fechar"
+  },
+  "hero": {
+    "slide1": "Criamos marcas poderosas",
+    "slide2": "Design. Estratégia. Impacto.",
+    "slide3": "Digital. Claro. Memorável."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Complete solutions for your business digital needs",
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Modern, fast and scalable web applications, built with next-generation technologies"
+    },
+    "design": {
+      "title": "Design & UX",
+      "description": "Elegant, intuitive interfaces optimized for conversion and maximum user satisfaction"
+    },
+    "mobile": {
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform solutions for iOS and Android, with premium performance"
+    },
+    "consulting": {
+      "title": "Tech Consulting",
+      "description": "Custom digital strategies, software architecture and optimization for business growth"
+    },
+    "ecommerce": {
+      "title": "E-Commerce",
+      "description": "Complete online sales platforms, optimized for conversion and premium user experience"
+    },
+    "branding": {
+      "title": "Branding & Identity",
+      "description": "Strong and memorable visual identities that differentiate your brand in the market"
+    }
+  },
+  "portfolio": {
+    "title": "Projects",
+    "subtitle": "We create digital experiences that make a difference",
+    "viewProject": "View project"
+  },
+  "whyUs": {
+    "title": "Why us",
+    "subtitle": "Differentiators that make us special",
+    "excellence": {
+      "title": "Excellence",
+      "description": "High standards in every project, without compromise"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    },
+    "partnership": {
+      "title": "Partnership",
+      "description": "We work closely to transform your vision into reality"
+    },
+    "results": {
+      "title": "Results",
+      "description": "Constant focus on business goals and success"
+    }
+  },
+  "process": {
+    "heading": "From baseline to breakthrough. Our process follows a straight game plan. Starting with clear **strategy**, moving through award-winning **design**, and finishing with high-performance **development**. Step by step, we craft websites that do more than just look good, but serve a purpose, spark emotions, and drive real business impact.",
+    "strategy": {
+      "title": "Strategy",
+      "duration": "3-4 weeks",
+      "description": "In a comprehensive workshop, we'll set the baseline together. By analyzing your business, we develop a clear website strategy and compelling copywriting – forming a psychological storytelling concept that's finely tuned to your business goals."
+    },
+    "design": {
+      "title": "Design",
+      "duration": "4-6 weeks",
+      "description": "Building on the strategic foundation, we serve the winning shot – the web design. Every detail is carefully crafted to create an immersive experience. It captivates your target audience, sparking excitement with your brand."
+    },
+    "development": {
+      "title": "Development",
+      "duration": "3-4 weeks",
+      "description": "Your website will be developed custom or through popular CMS platforms. With the precision of a champion's serve, we focus on performance-driven development, ensuring your site delivers a seamless, fast, and reliable experience that keeps your brand at the top of its game."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "duration": "Ongoing",
+      "description": "Personalized digital marketing strategies to bring your brand in front of the right audience. We develop effective campaigns that generate traffic, build authority and transform visitors into loyal customers for your business."
+    },
+    "photoVideo": {
+      "title": "Photo/Video",
+      "duration": "On demand",
+      "description": "Premium visual content that tells your brand story. From product photography to corporate videos and social media materials, we create images and videos that capture attention and convey your message with impact."
+    },
+    "cybersecurity": {
+      "title": "Cybersecurity",
+      "duration": "Ongoing",
+      "description": "We protect your business digital assets with cutting-edge security solutions. We monitor, analyze and prevent cyber threats, ensuring data confidentiality and operational continuity of your projects."
+    }
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "subtitle": "Success stories from our partners"
+  },
+  "cta": {
+    "title": "Vamos trabalhar juntos",
+    "subtitle": "Entre em contato e transformaremos suas ideias em realidade digital",
+    "button": "Entre em contato"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookie Policy",
+    "social": "Social Media",
+    "rights": "All rights reserved",
+    "description": "Transformamos ideias em experiências digitais excepcionais. Soluções premium para empresas de todos os tamanhos."
+  },
+  "mission": {
+    "title": "Missão",
+    "description": "Na Nexpals, nossa missão é criar sites e identidades de marca que despertam emoção. Colaboramos com marcas ambiciosas que valorizam design de qualidade, performance e atenção aos detalhes. Não se trata apenas de um site. Trata-se de estratégia, execução e vitória"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "A página que você está procurando não existe ou foi movida.",
+    "button": "Ir para a Página Inicial"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "description": "Ao clicar em \"Aceitar\", você concorda com o armazenamento de cookies em seu dispositivo para melhorar a navegação no site, analisar o uso do site e apoiar nossas atividades de marketing.",
+    "accept": "Aceitar",
+    "deny": "Recusar",
+    "preferences": "Preferências",
+    "preferencesTitle": "Gerenciar preferências de consentimento",
+    "close": "Fechar",
+    "essentials": "Essenciais",
+    "alwaysActive": "Sempre ativo",
+    "essentialsDescription": "Necessário para o funcionamento do site. Sempre ativo.",
+    "marketing": "Marketing",
+    "marketingDescription": "Usado para publicidade direcionada.",
+    "personalization": "Personalização",
+    "personalizationDescription": "Lembra suas preferências e fornece recursos aprimorados.",
+    "analytics": "Análise",
+    "analyticsDescription": "Mede o uso e melhora sua experiência.",
+    "rejectAll": "Rejeitar tudo",
+    "acceptAll": "Aceitar tudo"
+  }
+}

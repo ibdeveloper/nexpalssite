@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "menu": "Menu",
+    "services": "Services",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact",
+    "underConstruction": "Cette section est en construction. Veuillez revenir plus tard.",
+    "close": "Fermer"
+  },
+  "hero": {
+    "slide1": "Nous créons des marques puissantes",
+    "slide2": "Design. Stratégie. Impact.",
+    "slide3": "Numérique. Clair. Mémorable."
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Complete solutions for your business digital needs",
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Modern, fast and scalable web applications, built with next-generation technologies"
+    },
+    "design": {
+      "title": "Design & UX",
+      "description": "Elegant, intuitive interfaces optimized for conversion and maximum user satisfaction"
+    },
+    "mobile": {
+      "title": "Mobile Apps",
+      "description": "Native and cross-platform solutions for iOS and Android, with premium performance"
+    },
+    "consulting": {
+      "title": "Tech Consulting",
+      "description": "Custom digital strategies, software architecture and optimization for business growth"
+    },
+    "ecommerce": {
+      "title": "E-Commerce",
+      "description": "Complete online sales platforms, optimized for conversion and premium user experience"
+    },
+    "branding": {
+      "title": "Branding & Identity",
+      "description": "Strong and memorable visual identities that differentiate your brand in the market"
+    }
+  },
+  "portfolio": {
+    "title": "Projects",
+    "subtitle": "We create digital experiences that make a difference",
+    "viewProject": "View project"
+  },
+  "whyUs": {
+    "title": "Why us",
+    "subtitle": "Differentiators that make us special",
+    "excellence": {
+      "title": "Excellence",
+      "description": "High standards in every project, without compromise"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    },
+    "partnership": {
+      "title": "Partnership",
+      "description": "We work closely to transform your vision into reality"
+    },
+    "results": {
+      "title": "Results",
+      "description": "Constant focus on business goals and success"
+    }
+  },
+  "process": {
+    "heading": "De la base à la percée. Notre processus suit un plan de jeu clair. En commençant par une **stratégie** claire, en passant par un **design** primé, et en terminant par un **développement** haute performance. Étape par étape, nous créons des sites web qui font plus que simplement bien paraître, mais servent un objectif, suscitent des émotions et génèrent un impact commercial réel.",
+    "strategy": {
+      "title": "Stratégie",
+      "duration": "3-4 semaines",
+      "description": "Dans un atelier complet, nous établirons ensemble la base. En analysant votre entreprise, nous développons une stratégie de site web claire et une rédaction convaincante – formant un concept de storytelling psychologique finement ajusté à vos objectifs commerciaux."
+    },
+    "design": {
+      "title": "Design",
+      "duration": "4-6 semaines",
+      "description": "En nous appuyant sur les fondations stratégiques, nous servons le coup gagnant – le design web. Chaque détail est soigneusement créé pour créer une expérience immersive. Il captive votre public cible, suscitant l'émotion avec votre marque."
+    },
+    "development": {
+      "title": "Développement",
+      "duration": "3-4 semaines",
+      "description": "Votre site web sera développé sur mesure ou via des CMS populaires. Avec la précision du service d'un champion, nous nous concentrons sur un développement axé sur les performances, garantissant que votre site offre une expérience fluide, rapide et fiable qui maintient votre marque au sommet."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "duration": "En cours",
+      "description": "Stratégies de marketing digital personnalisées pour mettre votre marque devant le bon public. Nous développons des campagnes efficaces qui génèrent du trafic, construisent l'autorité et transforment les visiteurs en clients fidèles pour votre entreprise."
+    },
+    "photoVideo": {
+      "title": "Photo/Vidéo",
+      "duration": "Sur demande",
+      "description": "Contenu visuel premium qui raconte l'histoire de votre marque. De la photographie de produit aux vidéos corporate et aux matériaux pour les réseaux sociaux, nous créons des images et des vidéos qui captent l'attention et transmettent votre message avec impact."
+    },
+    "cybersecurity": {
+      "title": "Cybersécurité",
+      "duration": "En cours",
+      "description": "Nous protégeons les actifs numériques de votre entreprise avec des solutions de sécurité de pointe. Nous surveillons, analysons et prévenons les cybermenaces, assurant la confidentialité des données et la continuité opérationnelle de vos projets."
+    }
+  },
+  "testimonials": {
+    "title": "What clients say",
+    "subtitle": "Success stories from our partners"
+  },
+  "cta": {
+    "title": "Travaillons ensemble",
+    "subtitle": "Contactez-nous et nous transformerons vos idées en réalité numérique",
+    "button": "Contactez-nous"
+  },
+  "footer": {
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions",
+    "cookies": "Cookie Policy",
+    "social": "Social Media",
+    "rights": "All rights reserved",
+    "description": "Nous transformons les idées en expériences numériques exceptionnelles. Solutions premium pour entreprises de toutes tailles."
+  },
+  "mission": {
+    "title": "Mission",
+    "description": "Chez Nexpals, notre mission est de créer des sites web et des identités de marque qui suscitent l'émotion. Nous collaborons avec des marques ambitieuses qui apprécient un design de qualité, des performances et une attention aux détails. Il ne s'agit pas seulement d'un site web. Il s'agit de stratégie, d'exécution et de victoire"
+  },
+  "notFound": {
+    "title": "Page non trouvée",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "button": "Aller à la page d'accueil"
+  },
+  "cookies": {
+    "title": "Cookies",
+    "description": "En cliquant sur \"Accepter\", vous acceptez le stockage de cookies sur votre appareil pour améliorer la navigation sur le site, analyser l'utilisation du site et soutenir nos activités marketing.",
+    "accept": "Accepter",
+    "deny": "Refuser",
+    "preferences": "Préférences",
+    "preferencesTitle": "Gérer les préférences de consentement",
+    "close": "Fermer",
+    "essentials": "Essentiels",
+    "alwaysActive": "Toujours actif",
+    "essentialsDescription": "Nécessaire au fonctionnement du site. Toujours actif.",
+    "marketing": "Marketing",
+    "marketingDescription": "Utilisé pour la publicité ciblée.",
+    "personalization": "Personnalisation",
+    "personalizationDescription": "Mémorise vos préférences et offre des fonctionnalités améliorées.",
+    "analytics": "Analytique",
+    "analyticsDescription": "Mesure l'utilisation et améliore votre expérience.",
+    "rejectAll": "Tout refuser",
+    "acceptAll": "Tout accepter"
+  }
+}

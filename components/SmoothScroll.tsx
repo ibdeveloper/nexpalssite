@@ -4,13 +4,11 @@ import { useEffect } from 'react'
 
 export default function SmoothScroll() {
   useEffect(() => {
-    // Only apply on desktop (not touch devices)
-    if (typeof window === 'undefined' || 'ontouchstart' in window) {
-      return
-    }
+    if (typeof window === 'undefined') return
 
     let isScrolling = false
-    let scrollTimeout: NodeJS.Timeout | null = null
+    let scrollVelocity = 0
+    let animationFrameId: number | null = null
 
     const smoothScroll = (e: WheelEvent) => {
       // Only apply to vertical scroll with mouse wheel
@@ -20,32 +18,46 @@ export default function SmoothScroll() {
 
       e.preventDefault()
       
-      if (isScrolling) return
+      // Accumulate scroll velocity for smoother animation
+      scrollVelocity += e.deltaY * 0.15 // 0.15 = 15% of normal speed (lent și profi)
       
-      isScrolling = true
-      
-      // Calculate scroll distance - 0.5 = 50% of normal speed (mai lent, mai profi)
-      const scrollAmount = e.deltaY * 0.5
-      
-      window.scrollBy({
-        top: scrollAmount,
-        behavior: 'smooth'
-      })
-      
-      // Reset scrolling flag after animation
-      if (scrollTimeout) clearTimeout(scrollTimeout)
-      scrollTimeout = setTimeout(() => {
+      if (!isScrolling) {
+        isScrolling = true
+        animateScroll()
+      }
+    }
+
+    const animateScroll = () => {
+      if (Math.abs(scrollVelocity) < 0.1) {
+        // Stop scrolling when velocity is very small
+        scrollVelocity = 0
         isScrolling = false
-      }, 100)
+        return
+      }
+
+      // Apply easing for smooth deceleration
+      const friction = 0.92 // Higher = slower deceleration
+      scrollVelocity *= friction
+
+      // Scroll with smooth animation
+      window.scrollBy({
+        top: scrollVelocity,
+        behavior: 'auto' // Use auto for custom smooth control
+      })
+
+      animationFrameId = requestAnimationFrame(animateScroll)
     }
 
     // Add event listener with passive: false to allow preventDefault
+    // Apply to both desktop (mouse wheel) and touch devices
     window.addEventListener('wheel', smoothScroll, { passive: false })
     
     // Cleanup
     return () => {
       window.removeEventListener('wheel', smoothScroll)
-      if (scrollTimeout) clearTimeout(scrollTimeout)
+      if (animationFrameId) {
+        cancelAnimationFrame(animationFrameId)
+      }
     }
   }, [])
 

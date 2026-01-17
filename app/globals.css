@@ -24,8 +24,15 @@
 }
 
 html {
-  /* Disable default smooth scroll - we'll use custom JS for slower, smoother scroll */
-  scroll-behavior: auto;
+  /* Enable smooth scroll behavior */
+  scroll-behavior: smooth;
+  /* Slower scroll with custom easing */
+  scroll-padding-top: 0;
+}
+
+/* Smooth scroll for all elements */
+* {
+  scroll-behavior: smooth;
 }
 
 body {

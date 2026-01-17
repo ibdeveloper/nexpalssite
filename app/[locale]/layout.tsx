@@ -42,14 +42,10 @@ export default async function LocaleLayout({
   const messages = await getMessages()
 
   return (
-    <html lang={locale || routing.defaultLocale}>
-      <body>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-          <CookieConsent />
-          <SpeedInsights />
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      {children}
+      <CookieConsent />
+      <SpeedInsights />
+    </NextIntlClientProvider>
   )
 }

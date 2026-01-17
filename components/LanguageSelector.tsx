@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { usePathname } from '@/i18n/routing'
 import { useLocale } from 'next-intl'
+import { routing } from '@/i18n/routing'
 
 const languages = [
   { code: 'ro', name: 'Română', flag: '🇷🇴' },
@@ -82,11 +83,25 @@ export default function LanguageSelector({ scrolled = false }: LanguageSelectorP
     setIsOpen(false)
     setSearchQuery('')
 
+    // usePathname() from next-intl returns pathname without locale prefix
+    // But we need to extract the path without the current locale if it's in the URL
     let targetPath = pathname || '/'
+    
+    // Remove any locale prefix that might still be in pathname
+    // This handles cases where pathname might contain the locale
+    const localePattern = new RegExp(`^/(${routing.locales.join('|')})(/.*)?$`)
+    const match = targetPath.match(localePattern)
+    if (match && match[2]) {
+      // Extract path after locale
+      targetPath = match[2] || '/'
+    }
+    
+    // Ensure path starts with /
     if (!targetPath.startsWith('/')) {
       targetPath = '/' + targetPath
     }
 
+    // Build new URL with new locale
     const newUrl = `/${langCode}${targetPath === '/' ? '' : targetPath}`
     window.location.href = newUrl
   }

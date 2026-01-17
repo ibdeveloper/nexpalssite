@@ -19,8 +19,13 @@
     "slide3": "Digital. Clar. Memorabil."
   },
   "mission": {
-    "title": "Misiune",
-    "description": "La Nexpals, misiunea noastră este să creăm site-uri web și identități de brand care stârnesc emoție. Colaborăm cu branduri ambițioase, care apreciază designul de calitate, performanța și atenția la detalii. Nu este vorba doar despre un website. Este despre strategie, execuție și victorie"
+    "heading": "Creăm calea potrivită pentru obiectivele tale de comunicare.",
+    "brandDesign": "Design de brand",
+    "contentCreation": "Creare de conținut",
+    "digitalMarketing": "Marketing digital",
+    "communicationStrategy": "Strategie de comunicare",
+    "webDesign": "Design web",
+    "webDevelopment": "Dezvoltare web"
   },
   "services": {
     "title": "Servicii",

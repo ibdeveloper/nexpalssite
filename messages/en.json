@@ -19,8 +19,13 @@
     "slide3": "Digital. Clear. Memorable."
   },
   "mission": {
-    "title": "Mission",
-    "description": "At Nexpals, our mission is to create websites and brand identities that stir emotion. We collaborate with ambitious brands that appreciate quality design, performance and attention to detail. It's not just about a website. It's about strategy, execution and victory"
+    "heading": "We shape the right path for your communication goals.",
+    "brandDesign": "Brand design",
+    "contentCreation": "Content creation",
+    "digitalMarketing": "Digital marketing",
+    "communicationStrategy": "Communication strategy",
+    "webDesign": "Web design",
+    "webDevelopment": "Web development"
   },
   "services": {
     "title": "Services",

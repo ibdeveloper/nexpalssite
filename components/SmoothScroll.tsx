@@ -6,10 +6,6 @@ export default function SmoothScroll() {
   useEffect(() => {
     if (typeof window === 'undefined') return
 
-    let isScrolling = false
-    let scrollVelocity = 0
-    let animationFrameId: number | null = null
-
     const smoothScroll = (e: WheelEvent) => {
       // Check if the event target is inside a scrollable container (dropdown, modal, etc.)
       const target = e.target as HTMLElement
@@ -20,53 +16,31 @@ export default function SmoothScroll() {
         return
       }
 
+      // Check if we're already at the top or bottom of the page
+      const isAtTop = window.scrollY <= 0
+      const isAtBottom = window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 1
+
+      // Only apply smooth scroll if not at boundaries
+      if ((isAtTop && e.deltaY < 0) || (isAtBottom && e.deltaY > 0)) {
+        return // Let browser handle edge cases
+      }
+
       // Only apply to vertical scroll with mouse wheel
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
         return // Horizontal scroll, let it work normally
       }
 
-      e.preventDefault()
-      
-      // Accumulate scroll velocity for smoother animation
-      scrollVelocity += e.deltaY * 0.15 // 0.15 = 15% of normal speed (lent și profi)
-      
-      if (!isScrolling) {
-        isScrolling = true
-        animateScroll()
-      }
+      // Don't prevent default - just let native smooth scroll work
+      // The CSS scroll-behavior: smooth will handle the smoothness
     }
 
-    const animateScroll = () => {
-      if (Math.abs(scrollVelocity) < 0.1) {
-        // Stop scrolling when velocity is very small
-        scrollVelocity = 0
-        isScrolling = false
-        return
-      }
-
-      // Apply easing for smooth deceleration
-      const friction = 0.92 // Higher = slower deceleration
-      scrollVelocity *= friction
-
-      // Scroll with smooth animation
-      window.scrollBy({
-        top: scrollVelocity,
-        behavior: 'auto' // Use auto for custom smooth control
-      })
-
-      animationFrameId = requestAnimationFrame(animateScroll)
-    }
-
-    // Add event listener with passive: false to allow preventDefault
-    // Apply to both desktop (mouse wheel) and touch devices
-    window.addEventListener('wheel', smoothScroll, { passive: false })
+    // Add event listener with passive: true for better performance
+    // We're not preventing default, so passive is safe
+    window.addEventListener('wheel', smoothScroll, { passive: true })
     
     // Cleanup
     return () => {
       window.removeEventListener('wheel', smoothScroll)
-      if (animationFrameId) {
-        cancelAnimationFrame(animationFrameId)
-      }
     }
   }, [])
 

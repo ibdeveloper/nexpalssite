@@ -82,10 +82,9 @@ export default function UnderConstructionContent({ translations }: { translation
           >
             <Link
               href="/"
-              className="inline-block px-4 py-2 rounded-full font-medium text-sm transition-all duration-300 ease-out shadow-md hover:shadow-lg"
+              className="inline-block text-2xl sm:text-3xl md:text-4xl font-bold transition-opacity duration-300 ease-out hover:opacity-70"
               style={{
-                backgroundColor: '#002BBA',
-                color: '#ffffff',
+                color: '#002BBA',
               }}
             >
               {translations.button}

@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { routing } from '../../i18n/routing'
 import type { Metadata, Viewport } from 'next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import '../globals.css'
 import CookieConsent from '@/components/CookieConsent'
 
@@ -46,6 +47,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
           <CookieConsent />
+          <SpeedInsights />
         </NextIntlClientProvider>
       </body>
     </html>

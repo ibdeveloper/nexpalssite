@@ -18,5 +18,12 @@ export default async function UnderConstructionPage({ params }: Props) {
   setRequestLocale(locale)
   const t = await getTranslations('underConstruction')
 
-  return <UnderConstructionContent translations={t} />
+  // Convert translations to a plain object that can be passed to client component
+  const translations = {
+    title: t('title'),
+    description: t('description'),
+    button: t('button'),
+  }
+
+  return <UnderConstructionContent translations={translations} />
 }

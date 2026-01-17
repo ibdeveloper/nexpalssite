@@ -119,8 +119,13 @@
     "description": "Trasformiamo le idee in esperienze digitali eccezionali. Soluzioni premium per aziende di tutte le dimensioni."
   },
   "mission": {
-    "title": "Missione",
-    "description": "In Nexpals, la nostra missione è creare siti web e identità di marca che suscitano emozioni. Collaboriamo con marchi ambiziosi che apprezzano design di qualità, performance e attenzione ai dettagli. Non si tratta solo di un sito web. Si tratta di strategia, esecuzione e vittoria"
+    "heading": "Disegniamo il percorso giusto per i tuoi obiettivi di comunicazione.",
+    "brandDesign": "Brand design",
+    "contentCreation": "Creazione contenuti",
+    "digitalMarketing": "Marketing digitale",
+    "communicationStrategy": "Strategia di comunicazione",
+    "webDesign": "Web design",
+    "webDevelopment": "Sviluppo web"
   },
   "notFound": {
     "title": "Pagina non trovata",

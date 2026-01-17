@@ -171,7 +171,22 @@ export default function LanguageSelector({ scrolled = false }: LanguageSelectorP
           </div>
 
           {/* Language List */}
-          <div className="max-h-[280px] sm:max-h-[320px] overflow-y-auto">
+          <div 
+            className="max-h-[280px] sm:max-h-[320px] overflow-y-auto overscroll-contain"
+            style={{
+              scrollBehavior: 'auto',
+              WebkitOverflowScrolling: 'touch',
+              overscrollBehavior: 'contain'
+            }}
+            onWheel={(e) => {
+              // Stop propagation to prevent SmoothScroll from interfering
+              e.stopPropagation()
+            }}
+            onTouchMove={(e) => {
+              // Stop propagation to prevent SmoothScroll from interfering
+              e.stopPropagation()
+            }}
+          >
             {filteredLanguages.length > 0 ? (
               filteredLanguages.map((lang) => {
                 const isSelected = lang.code === locale

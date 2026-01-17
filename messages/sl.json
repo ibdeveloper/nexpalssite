@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "Ta sekcija je v gradnji. Prosimo, preverite pozneje.",
     "close": "Zapri"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Zakaj Nexpals?",
+    "subheading": "Smo moderna digitalna agencija. Tu so nekatere naše prednosti",
+    "support": {
+      "title": "Namenska podpora",
+      "description": "Odgovarjamo v klepetu ali telefonu, kadar koli potrebujete. Hitro in neposredno"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Premium dizajn",
+      "description": "Ustvarjamo močne in nepozabne vizualne identitete. Vaš dizajn v zanesljivih rokah"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Moderna tehnologija",
+      "description": "Uporabljamo najsodobnejše tehnologije za ustvarjanje visokozmogljivih in razširljivih digitalnih rešitev za vas"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Rezultati",
+      "description": "Stalno osredotočenost na poslovne cilje in uspeh"
     }
   },
   "process": {

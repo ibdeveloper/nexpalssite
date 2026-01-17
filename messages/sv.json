@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "Denna sektion är under konstruktion. Vänligen kom tillbaka senare.",
     "close": "Stäng"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Varför Nexpals?",
+    "subheading": "Vi är ett modernt digitalt byrå. Här är några av våra fördelar",
+    "support": {
+      "title": "Dedikerad support",
+      "description": "Vi svarar i chatt eller telefon när du behöver det. Snabbt och direkt"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Premium design",
+      "description": "Vi skapar starka och minnesvärda visuella identiteter. Ditt design i pålitliga händer"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Modern teknik",
+      "description": "Vi använder toppmodern teknik för att skapa högpresterande och skalbar digitala lösningar för dig"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Resultat",
+      "description": "Konstant fokus på affärsmål och framgång"
     }
   },
   "process": {

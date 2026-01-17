@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Óstáil",
     "underConstruction": "Tá an rannóg seo á tógáil. Seiceáil ar ais níos déanaí le do thoil.",
     "close": "Dún"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Cén fáth Nexpals?",
+    "subheading": "Is gníomhaireacht dhigiteach nua-aimseartha muid. Seo roinnt dár mhainneálacha",
+    "support": {
+      "title": "Tacaíocht dhilse",
+      "description": "Freagraím sa chomhrá nó ar an bhfón ag am ar bith. Go tapa agus go díreach"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Dearadh préimhe",
+      "description": "Cruthaímid féiniúlachtaí radharcacha láidre agus cuimhneacháin. Do dhearadh i lámha iontaofa"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Teicneolaíocht nua-aimseartha",
+      "description": "Úsáidimid teicneolaíocht cinn duga chun réitigh dhigiteacha ardleibhéil agus scálaithe a chruthú duit"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Torthaí",
+      "description": "Fócas leanúnach ar spriocanna agus rath an ghnó"
     }
   },
   "process": {

@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "Dieser Abschnitt befindet sich im Aufbau. Bitte schauen Sie später vorbei.",
     "close": "Schließen"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Warum Nexpals?",
+    "subheading": "Wir sind eine moderne Digitalagentur. Hier sind einige unserer Vorteile",
+    "support": {
+      "title": "Dedizierter Support",
+      "description": "Wir antworten im Chat oder am Telefon, wann immer Sie es brauchen. Schnell und auf den Punkt"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Premium-Design",
+      "description": "Wir erstellen starke und unvergessliche visuelle Identitäten. Ihr Design in vertrauensvollen Händen"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Moderne Technologie",
+      "description": "Wir verwenden modernste Technologien, um leistungsstarke und skalierbare digitale Lösungen für Sie zu erstellen"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Ergebnisse",
+      "description": "Konstanter Fokus auf Geschäftsziele und Erfolg"
     }
   },
   "process": {
@@ -148,8 +148,8 @@
     }
   },
   "portfolioBanner": {
-    "heading": "Positionierung digitaler Innovatoren im Premium-Bereich",
-    "description": "Entdecken Sie unser Portfolio von Projekten und sehen Sie, wie wir Ideen in erfolgreiche digitale Realitäten verwandeln",
+    "heading": "Portfolio",
+    "description": "Entdecken Sie unser Portfolio von Projekten und sehen Sie\nwie wir Ideen in erfolgreiche digitale Realitäten verwandeln",
     "button": "Portfolio ansehen"
   },
   "notFound": {

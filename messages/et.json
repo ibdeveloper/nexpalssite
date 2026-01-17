@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "See sektsioon on ehitamisel. Palun kontrollige hiljem.",
     "close": "Sulge"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Miks Nexpals?",
+    "subheading": "Oleme kaasaegne digitaalagentuur. Siin on mõned meie eelised",
+    "support": {
+      "title": "Pühendunud tugi",
+      "description": "Vastame vestluses või telefonis, millal vajad. Kiiresti ja otse"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Premium disain",
+      "description": "Loome tugevaid ja meeldejäävaid visuaalseid identiteete. Teie disain usaldusväärsetes kätes"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Kaasaegne tehnoloogia",
+      "description": "Kasutame uusimat tehnoloogiat, et luua teile suure jõudlusega ja skaleeritavaid digitaalseid lahendusi"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Tulemused",
+      "description": "Pidev fookus ettevõtte eesmärkidel ja edul"
     }
   },
   "process": {

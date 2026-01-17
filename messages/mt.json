@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "Din is-sezzjoni qed tinbena. Jekk jogħġbok iċċekkja aktar tard.",
     "close": "Agħlaq"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Għaliex Nexpals?",
+    "subheading": "Aħna aġenzija diġitali moderna. Hawn huma xi wħud mill-vantaġġi tagħna",
+    "support": {
+      "title": "Appoġġ dedikat",
+      "description": "Nwieġbu fiċ-chat jew telefon meta jkollok bżonn. Malajr u dirett"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Disejn premium",
+      "description": "Noħolqu identitajiet viżwali qawwija u memorabbli. Id-disinn tiegħek f'idejn fiduċjarji"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Teknoloġija moderna",
+      "description": "Nużaw teknoloġiji ta' quddiem biex noħolqu soluzzjonijiet diġitali ta' prestazzjoni għolja u skalarji għalik"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Riżultati",
+      "description": "Fokus kostanti fuq l-għanijiet tan-negozju u s-suċċess"
     }
   },
   "process": {

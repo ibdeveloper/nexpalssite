@@ -9,7 +9,7 @@
     "services": "Servicii",
     "projects": "Proiecte",
     "about": "Despre noi",
-    "contact": "Contact",
+    "hosting": "Găzduire",
     "underConstruction": "Această secțiune este în construcție. Vă rugăm să reveniți mai târziu.",
     "close": "Închide"
   },
@@ -43,13 +43,13 @@
       "description": "Folosim tehnologii de ultimă generație pentru a-ți crea soluții digitale performante și scalabile"
     },
     "results": {
-      "title": "Rezultate măsurabile",
-      "description": "Strategii clare și execuție precisă. Cu noi, brandul tău atinge obiectivele setate"
+      "title": "Rezultate",
+      "description": "Orientare constantă către obiectivele și succesul business-ului"
     }
   },
   "portfolioBanner": {
-    "heading": "Poziționăm inovatori digitali în spațiul premium",
-    "description": "Descoperă portofoliul nostru de proiecte și vezi cum transformăm ideile în realități digitale de succes",
+    "heading": "Portofoliu",
+    "description": "Descoperă portofoliul nostru de proiecte și vezi\ncum transformăm ideile în realități digitale de succes",
     "button": "Vezi Portofoliul"
   },
   "services": {
@@ -84,26 +84,6 @@
     "title": "Proiecte",
     "subtitle": "Creăm experiențe digitale care fac diferența",
     "viewProject": "Vezi proiectul"
-  },
-  "whyUs": {
-    "title": "De ce noi",
-    "subtitle": "Diferențiatorii care ne fac speciali",
-    "excellence": {
-      "title": "Excelență",
-      "description": "Standarde înalte în fiecare proiect, fără compromisuri"
-    },
-    "innovation": {
-      "title": "Inovație",
-      "description": "Tehnologii de vârf și abordări creative pentru soluții unice"
-    },
-    "partnership": {
-      "title": "Parteneriat",
-      "description": "Colaborăm strâns pentru a transforma viziunea dvs. în realitate"
-    },
-    "results": {
-      "title": "Rezultate",
-      "description": "Orientare constantă către obiectivele și succesul business-ului"
-    }
   },
   "process": {
     "heading": "De la bază la revoluție. Procesul nostru urmează un plan clar. Începem cu o **strategie** clară, trecem prin **design** premiu, și finalizăm cu **dezvoltare** de înaltă performanță. Pas cu pas, creăm site-uri care nu doar arată bine, ci servesc un scop, stârnesc emoții și generează impact real în business.",

@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Φιλοξενία",
     "underConstruction": "Αυτή η ενότητα είναι υπό κατασκευή. Παρακαλώ ελέγξτε αργότερα.",
     "close": "Κλείσιμο"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Γιατί Nexpals;",
+    "subheading": "Είμαστε ένας σύγχρονος ψηφιακός οργανισμός. Ακολουθούν μερικά από τα πλεονεκτήματά μας",
+    "support": {
+      "title": "Αφοσιωμένη υποστήριξη",
+      "description": "Απαντάμε στη συνομιλία ή το τηλέφωνο όποτε χρειάζεστε. Γρήγορα και άμεσα"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Premium σχεδιασμός",
+      "description": "Δημιουργούμε ισχυρές και αξέχαστες οπτικές ταυτότητες. Ο σχεδιασμός σας σε αξιόπιστα χέρια"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Σύγχρονη τεχνολογία",
+      "description": "Χρησιμοποιούμε τεχνολογία αιχμής για τη δημιουργία υψηλής απόδοσης και κλιμακώσιμων ψηφιακών λύσεων για εσάς"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Αποτελέσματα",
+      "description": "Συνεχής εστίαση στους επιχειρηματικούς στόχους και την επιτυχία"
     }
   },
   "process": {

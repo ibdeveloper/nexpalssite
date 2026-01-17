@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hébergement",
     "underConstruction": "Cette section est en construction. Veuillez revenir plus tard.",
     "close": "Fermer"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Pourquoi Nexpals?",
+    "subheading": "Nous sommes une agence numérique moderne. Voici quelques-uns de nos avantages",
+    "support": {
+      "title": "Support dédié",
+      "description": "Nous répondons par chat ou téléphone chaque fois que vous en avez besoin. Rapide et direct"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Design premium",
+      "description": "Nous créons des identités visuelles fortes et mémorables. Votre design entre de bonnes mains"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Technologie moderne",
+      "description": "Nous utilisons des technologies de pointe pour créer des solutions numériques performantes et évolutives pour vous"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Résultats",
+      "description": "Focus constant sur les objectifs et le succès de l'entreprise"
     }
   },
   "process": {
@@ -148,8 +148,8 @@
     }
   },
   "portfolioBanner": {
-    "heading": "Positionnement des innovateurs numériques dans l'espace premium",
-    "description": "Découvrez notre portfolio de projets et voyez comment nous transformons les idées en réalités numériques réussies",
+    "heading": "Portfolio",
+    "description": "Découvrez notre portfolio de projets et voyez\ncomment nous transformons les idées en réalités numériques réussies",
     "button": "Voir le Portfolio"
   },
   "notFound": {

@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hostingas",
     "underConstruction": "Ši sekcija kuriama. Prašome patikrinti vėliau.",
     "close": "Uždaryti"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Kodėl Nexpals?",
+    "subheading": "Esame šiuolaikinė skaitmeninė agentūra. Štai kai kurie mūsų privalumai",
+    "support": {
+      "title": "Skirta pagalba",
+      "description": "Atsakome pokalbyje arba telefonu, kai tik reikia. Greitai ir tiesiogiai"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Premium dizainas",
+      "description": "Kuriame stiprius ir įsimintinus vizualinius tapatumus. Jūsų dizainas patikimose rankose"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Šiuolaikinė technologija",
+      "description": "Naudojame pažangiausias technologijas, kad sukurtume aukšto našumo ir keičiamo dydžio skaitmeninius sprendimus jums"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Rezultatai",
+      "description": "Nuolatinis dėmesys verslo tikslams ir sėkmei"
     }
   },
   "process": {

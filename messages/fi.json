@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "Tämä osio on rakenteilla. Tarkista myöhemmin.",
     "close": "Sulje"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Miksi Nexpals?",
+    "subheading": "Olemme nykyaikainen digitaalinen toimisto. Tässä ovat joitain edullamme",
+    "support": {
+      "title": "Omistettu tuki",
+      "description": "Vastaamme chatissa tai puhelimessa aina kun tarvitset. Nopeasti ja suoraan"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Premium-suunnittelu",
+      "description": "Luomme vahvoja ja mieleenpainuvia visuaalisia identiteettejä. Suunnittelusi luotettaviin käsiin"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Nykyaikainen teknologia",
+      "description": "Käytämme huipputeknologiaa luodaksemme sinulle suorituskykyisiä ja skaalautuvia digitaalisia ratkaisuja"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Tulokset",
+      "description": "Jatkuva keskittyminen liiketoimintatavoitteisiin ja menestykseen"
     }
   },
   "process": {

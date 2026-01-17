@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "Ez a szakasz jelenleg készül. Kérjük, nézzen vissza később.",
     "close": "Bezárás"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Miért Nexpals?",
+    "subheading": "Modern digitális ügynökség vagyunk. Íme néhány előnyünk",
+    "support": {
+      "title": "Kiemelt támogatás",
+      "description": "Válaszolunk a chaten vagy telefonon, amikor szükséged van rá. Gyorsan és közvetlenül"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Prémium dizájn",
+      "description": "Erős és emlékezetes vizuális identitásokat hozunk létre. A te dizájnod megbízható kezekben"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Modern technológia",
+      "description": "Legmodernebb technológiákat használunk, hogy nagy teljesítményű és skálázható digitális megoldásokat hozzunk létre számodra"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Eredmények",
+      "description": "Folyamatos fókusz az üzleti célokon és a siker"
     }
   },
   "process": {

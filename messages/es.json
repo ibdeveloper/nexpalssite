@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Alojamiento",
     "underConstruction": "Esta sección está en construcción. Por favor, vuelva más tarde.",
     "close": "Cerrar"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "¿Por qué Nexpals?",
+    "subheading": "Somos una agencia digital moderna. Aquí están algunas de nuestras ventajas",
+    "support": {
+      "title": "Soporte dedicado",
+      "description": "Respondemos por chat o teléfono siempre que lo necesites. Rápido y directo"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Diseño premium",
+      "description": "Creamos identidades visuales fuertes y memorables. Tu diseño en manos confiables"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Tecnología moderna",
+      "description": "Utilizamos tecnologías de vanguardia para crear soluciones digitales de alto rendimiento y escalables para ti"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Resultados",
+      "description": "Enfoque constante en los objetivos y el éxito del negocio"
     }
   },
   "process": {
@@ -148,8 +148,8 @@
     }
   },
   "portfolioBanner": {
-    "heading": "Posicionando innovadores digitales en el espacio premium",
-    "description": "Descubre nuestro portfolio de proyectos y ve cómo transformamos ideas en realidades digitales exitosas",
+    "heading": "Portfolio",
+    "description": "Descubre nuestro portfolio de proyectos y ve\ncómo transformamos ideas en realidades digitales exitosas",
     "button": "Ver Portfolio"
   },
   "notFound": {

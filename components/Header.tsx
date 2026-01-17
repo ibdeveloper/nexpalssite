@@ -26,7 +26,6 @@ export default function Header() {
     { href: '/under-construction', label: t('services') },
     { href: '/under-construction', label: t('projects') },
     { href: '/under-construction', label: t('about') },
-    { href: '/under-construction', label: t('contact') },
   ]
 
   return (
@@ -104,8 +103,8 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Right - Hamburger pe mobile, Language Selector pe desktop */}
-          <div className="flex items-center justify-end">
+          {/* Right - Hamburger pe mobile, Contact + Language Selector pe desktop */}
+          <div className="flex items-center justify-end gap-4">
             {/* Mobile Menu Button - Dreapta */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -128,8 +127,26 @@ export default function Header() {
               </motion.span>
             </button>
 
-            {/* Desktop Language Selector */}
-            <div className="hidden lg:flex items-center">
+            {/* Desktop - Contact + Language Selector */}
+            <div className="hidden lg:flex items-center gap-4">
+              {/* Contact Link */}
+              <Link
+                href="/under-construction"
+                className="text-sm font-medium transition-colors duration-200 relative group cursor-pointer"
+                style={{
+                  color: scrolled ? '#002BBA' : '#FFFFFF',
+                }}
+              >
+                {t('hosting')}
+                <span 
+                  className="absolute bottom-0 left-0 w-0 h-0.5 group-hover:w-full transition-all duration-300 ease-out"
+                  style={{
+                    backgroundColor: scrolled ? '#002BBA' : '#FFFFFF',
+                  }}
+                />
+              </Link>
+              
+              {/* Language Selector */}
               <LanguageSelector scrolled={scrolled} />
             </div>
           </div>

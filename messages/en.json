@@ -9,7 +9,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "This section is under construction. Please check back later.",
     "close": "Close"
   },
@@ -43,13 +43,13 @@
       "description": "We use cutting-edge technologies to create high-performance and scalable digital solutions for you"
     },
     "results": {
-      "title": "Measurable results",
-      "description": "Clear strategies and precise execution. With us, your brand achieves its goals"
+      "title": "Results",
+      "description": "Constant focus on business goals and success"
     }
   },
   "portfolioBanner": {
-    "heading": "Positioning digital innovators in the premium space",
-    "description": "Discover our portfolio of projects and see how we transform ideas into successful digital realities",
+    "heading": "Portfolio",
+    "description": "Discover our portfolio of projects and see\nhow we transform ideas into successful digital realities",
     "button": "See Portfolio"
   },
   "services": {

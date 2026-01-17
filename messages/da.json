@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "Denne sektion er under konstruktion. Kom venligst tilbage senere.",
     "close": "Luk"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Hvorfor Nexpals?",
+    "subheading": "Vi er et moderne digitalt bureau. Her er nogle af vores fordele",
+    "support": {
+      "title": "Dedikeret support",
+      "description": "Vi svarer i chat eller telefon, når du har brug for det. Hurtigt og direkte"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Premium design",
+      "description": "Vi skaber stærke og mindeværdige visuelle identiteter. Dit design i pålidelige hænder"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Moderne teknologi",
+      "description": "Vi bruger cutting-edge teknologi til at skabe højtydende og skalerbare digitale løsninger til dig"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Resultater",
+      "description": "Konstant fokus på forretningsmål og succes"
     }
   },
   "process": {

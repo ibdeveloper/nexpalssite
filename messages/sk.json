@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Hosting",
     "underConstruction": "Táto sekcia je vo výstavbe. Skúste to prosím neskôr.",
     "close": "Zavrieť"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Prečo Nexpals?",
+    "subheading": "Sme moderná digitálna agentúra. Tu sú niektoré z našich výhod",
+    "support": {
+      "title": "Vyhradená podpora",
+      "description": "Odpovedáme v chate alebo telefóne, kedykoľvek to potrebujete. Rýchlo a priamo"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Prémiový dizajn",
+      "description": "Vytvárame silné a nezabudnuteľné vizuálne identity. Váš dizajn v dôveryhodných rukách"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Moderná technológia",
+      "description": "Používame najmodernejšie technológie na vytváranie vysoko výkonných a škálovateľných digitálnych riešení pre vás"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Výsledky",
+      "description": "Neustály zameranie na obchodné ciele a úspech"
     }
   },
   "process": {

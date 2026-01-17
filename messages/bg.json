@@ -4,7 +4,7 @@
     "services": "Services",
     "projects": "Projects",
     "about": "About",
-    "contact": "Contact",
+    "hosting": "Хостинг",
     "underConstruction": "Тази секция е в процес на изграждане. Моля, проверете по-късно.",
     "close": "Затвори"
   },
@@ -47,23 +47,23 @@
     "viewProject": "View project"
   },
   "whyUs": {
-    "title": "Why us",
-    "subtitle": "Differentiators that make us special",
-    "excellence": {
-      "title": "Excellence",
-      "description": "High standards in every project, without compromise"
+    "heading": "Защо Nexpals?",
+    "subheading": "Ние сме модерна дигитална агенция. Ето някои от нашите предимства",
+    "support": {
+      "title": "Посветена поддръжка",
+      "description": "Отговаряме в чат или телефон по всяко време. Бързо и точно"
     },
-    "innovation": {
-      "title": "Innovation",
-      "description": "Cutting-edge technologies and creative approaches for unique solutions"
+    "design": {
+      "title": "Премиум дизайн",
+      "description": "Създаваме силни и запомнящи се визуални идентичности. Вашият дизайн в надеждни ръце"
     },
-    "partnership": {
-      "title": "Partnership",
-      "description": "We work closely to transform your vision into reality"
+    "technology": {
+      "title": "Модерна технология",
+      "description": "Използваме най-новите технологии, за да създадем високопроизводителни и мащабируеми дигитални решения за вас"
     },
     "results": {
-      "title": "Results",
-      "description": "Constant focus on business goals and success"
+      "title": "Резултати",
+      "description": "Постоянен фокус върху целите и успеха на бизнеса"
     }
   },
   "process": {

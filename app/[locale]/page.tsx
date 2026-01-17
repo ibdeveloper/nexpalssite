@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Mission from '@/components/Mission'
+import WhyUs from '@/components/WhyUs'
 import { routing } from '@/i18n/routing'
 
 // Generate static params for all locales at build time
@@ -136,6 +137,7 @@ export default async function Home({ params }: Props) {
         <Header />
         <Hero />
         <Mission />
+        <WhyUs />
       </main>
     </>
   )

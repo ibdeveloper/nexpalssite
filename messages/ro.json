@@ -27,6 +27,26 @@
     "webDesign": "Design web",
     "webDevelopment": "Dezvoltare web"
   },
+  "whyUs": {
+    "heading": "De ce Nexpals?",
+    "subheading": "Suntem o agenție digitală modernă. Iată câteva dintre avantajele noastre",
+    "support": {
+      "title": "Suport dedicat",
+      "description": "Răspundem în chat sau telefon oricând ai nevoie. Rapid și la obiect"
+    },
+    "design": {
+      "title": "Design premium",
+      "description": "Creăm identități vizuale puternice și memorabile. Design-ul tău în mâini de încredere"
+    },
+    "technology": {
+      "title": "Tehnologie modernă",
+      "description": "Folosim tehnologii de ultimă generație pentru a-ți crea soluții digitale performante și scalabile"
+    },
+    "results": {
+      "title": "Rezultate măsurabile",
+      "description": "Strategii clare și execuție precisă. Cu noi, brandul tău atinge obiectivele setate"
+    }
+  },
   "services": {
     "title": "Servicii",
     "subtitle": "Soluții complete pentru nevoile digitale ale afacerii dvs.",

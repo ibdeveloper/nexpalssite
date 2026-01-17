@@ -1,4 +1,9 @@
 {
+  "seo": {
+    "title": "Nexpals - Premium Digital Agency | Web Design & Development",
+    "description": "Nexpals is a premium digital agency specialized in creating websites, brand design and memorable visual identities. We offer complete web development, UI/UX design and branding solutions.",
+    "keywords": "web design, web development, branding, visual identity, digital agency, UI/UX design, premium websites, Next.js, modern design"
+  },
   "nav": {
     "menu": "Menu",
     "services": "Services",

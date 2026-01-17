@@ -14,11 +14,16 @@ export function generateStaticParams() {
 // Force static generation
 export const dynamic = 'force-static'
 
+// Base metadata - specific metadata is generated in page.tsx
 export const metadata: Metadata = {
   formatDetection: {
     telephone: false,
     address: false,
     email: false,
+  },
+  icons: {
+    icon: '/icon.png',
+    apple: '/icon.png',
   },
 }
 

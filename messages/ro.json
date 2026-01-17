@@ -1,4 +1,9 @@
 {
+  "seo": {
+    "title": "Nexpals - Premium Digital Agency | Web Design & Development",
+    "description": "Nexpals este o agenție digitală premium specializată în crearea de site-uri web, design de brand și identități vizuale memorabile. Oferim soluții complete de web development, design UI/UX și branding.",
+    "keywords": "web design, web development, branding, identitate vizuală, agenție digitală, design UI/UX, site-uri web premium, Next.js, design modern"
+  },
   "nav": {
     "menu": "Meniu",
     "services": "Servicii",

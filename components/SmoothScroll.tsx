@@ -11,6 +11,15 @@ export default function SmoothScroll() {
     let animationFrameId: number | null = null
 
     const smoothScroll = (e: WheelEvent) => {
+      // Check if the event target is inside a scrollable container (dropdown, modal, etc.)
+      const target = e.target as HTMLElement
+      const scrollableContainer = target.closest('[data-scrollable], [class*="overflow"], .overflow-y-auto, .overflow-y-scroll')
+      
+      // If inside a scrollable container, don't interfere
+      if (scrollableContainer && scrollableContainer !== document.body && scrollableContainer !== document.documentElement) {
+        return
+      }
+
       // Only apply to vertical scroll with mouse wheel
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
         return // Horizontal scroll, let it work normally

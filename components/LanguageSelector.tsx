@@ -173,18 +173,11 @@ export default function LanguageSelector({ scrolled = false }: LanguageSelectorP
           {/* Language List */}
           <div 
             className="max-h-[280px] sm:max-h-[320px] overflow-y-auto overscroll-contain"
+            data-scrollable="true"
             style={{
               scrollBehavior: 'auto',
               WebkitOverflowScrolling: 'touch',
               overscrollBehavior: 'contain'
-            }}
-            onWheel={(e) => {
-              // Stop propagation to prevent SmoothScroll from interfering
-              e.stopPropagation()
-            }}
-            onTouchMove={(e) => {
-              // Stop propagation to prevent SmoothScroll from interfering
-              e.stopPropagation()
             }}
           >
             {filteredLanguages.length > 0 ? (

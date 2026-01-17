@@ -174,7 +174,9 @@ colors: {
 ## 🚀 Deployment
 
 Site-ul este gata pentru deployment pe:
-- **Vercel** (recomandat pentru Next.js) - deploy automat din GitHub
+- **Vercel** (recomandat pentru Next.js) - deploy automat din GitHub ✅
+  - Vezi `VERCEL_DEPLOY.md` pentru setup complet
+  - Deploy automat la fiecare push pe GitHub
 - **Netlify** - deploy automat din GitHub
 - **cPanel** - vezi `DEPLOY_CPANEL.md` pentru instrucțiuni
 - **AWS Amplify**
@@ -183,6 +185,10 @@ Site-ul este gata pentru deployment pe:
 ### Upload pe GitHub
 
 Pentru a urca proiectul pe GitHub, vezi `GITHUB_SETUP.md` pentru ghid complet.
+
+### Deploy Automat pe Vercel
+
+Pentru deploy automat când faci push pe GitHub, vezi `VERCEL_DEPLOY.md` - setup complet în 5 minute!
 
 ## 📝 Note
 

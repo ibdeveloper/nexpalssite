@@ -3,7 +3,6 @@ import { getMessages } from 'next-intl/server'
 import { routing } from '../../i18n/routing'
 import type { Metadata, Viewport } from 'next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import '../globals.css'
 import CookieConsent from '@/components/CookieConsent'
 
 // Generate static params for all locales at build time

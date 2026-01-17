@@ -11,19 +11,14 @@ npm run build
 
 ### 2. Fișiere de Urcat pe cPanel (Via File Manager)
 
-**IMPORTANT:** Pentru deploy fără SSH, mai întâi rulează `npm run build` local, apoi urci folder-ul `.next/` generat.
+**IMPORTANT:** Pentru deploy fără SSH, mai întâi rulează `npm run build` local, apoi urci folder-ul `.next/standalone/` generat.
 
 Urci următoarele foldere și fișiere în **File Manager**, în folderul domeniului tău (de ex: `public_html` sau `domeniu.com`):
 
-**IMPORTANT:** Pentru deploy fără SSH, mai întâi rulează `npm run build` local, apoi urci folder-ul `.next/` generat.
-
 #### Foldere:
-- ✅ `.next/` (generat după `npm run build`)
-- ✅ `app/`
-- ✅ `components/`
-- ✅ `i18n/`
-- ✅ `messages/`
-- ✅ `public/`
+- ✅ `.next/standalone/` (generat după `npm run build` cu `output: 'standalone'`)
+- ✅ `.next/static/` (generat după build)
+- ✅ `public/` (folder cu imagini, fonturi, video-uri)
 - ✅ `node_modules/` (SAU rulează `npm install` pe server)
 
 #### Fișiere:
@@ -46,7 +41,7 @@ Urci următoarele foldere și fișiere în **File Manager**, în folderul domeni
 
 ### 3. Pași pe Server (cPanel) - FĂRĂ SSH
 
-#### Opțiunea 1: Build Local + Upload (Recomandat pentru cPanel fără SSH)
+#### Opțiunea 1: Build Local + Upload Standalone (Recomandat pentru cPanel fără SSH)
 
 **Pași:**
 
@@ -55,31 +50,28 @@ Urci următoarele foldere și fișiere în **File Manager**, în folderul domeni
    npm run build
    ```
 
-2. **După build**, urci următoarele folder-uri și fișiere via **File Manager**:
-   
-   **Foldere de urcat:**
-   - `.next/` (intreg folder-ul generat după build)
-   - `public/` (folder cu imagini, fonturi, video-uri)
-   - `app/`
-   - `components/`
-   - `i18n/`
-   - `messages/`
-   
-   **Fișiere de urcat:**
-   - `package.json`
-   - `package-lock.json`
-   - `next.config.js`
-   - `middleware.ts`
-   - `tailwind.config.ts`
-   - `postcss.config.js`
-   - `tsconfig.json`
-   - `next-env.d.ts`
-   - `.htaccess` (dacă există)
+2. **După build**, vei avea:
+   - Folder `.next/standalone/` - conține serverul minim
+   - Folder `.next/static/` - assets statice
+   - Folder `public/` - assets publice
 
-3. **NU urca:**
-   - `node_modules/` (va fi generat pe server)
-   - `.git/`
-   - `README.md`, `DEPLOY_CPANEL.md`, `PERFORMANCE.md`
+3. **Via File Manager**, urci pe server:
+   - ✅ **`.next/standalone/`** (intreg folder-ul)
+   - ✅ **`.next/static/`** (intreg folder-ul)
+   - ✅ **`public/`** (folder cu imagini, video-uri, fonturi)
+
+4. **Structura pe server va fi:**
+   ```
+   public_html/ (sau domeniu.com/)
+   ├── .next/
+   │   ├── standalone/
+   │   │   └── server.js
+   │   └── static/
+   ├── public/
+   │   ├── fonts/
+   │   └── images/
+   └── package.json
+   ```
 
 #### Opțiunea 2: Via File Manager + Terminal cPanel (dacă e disponibil)
 
@@ -95,12 +87,12 @@ Urci următoarele foldere și fișiere în **File Manager**, în folderul domeni
    ```
    npm install --production
    ```
-5. Rulează build-ul (dacă nu ai urcat `.next/`):
+5. Rulează build-ul:
    ```
    npm run build
    ```
 
-**NOTĂ:** Dacă ai urcat deja folder-ul `.next/` de la build-ul local, poți sări peste pasul 5.
+**NOTĂ:** Dacă ai urcat deja folderele `.next/standalone/` și `.next/static/` de la build-ul local, poți sări peste pasul 5.
 
 ### 4. Configurare Node.js în cPanel (FĂRĂ SSH)
 
@@ -111,71 +103,29 @@ Urci următoarele foldere și fișiere în **File Manager**, în folderul domeni
    - **Node.js Version**: 18.x sau 20.x
    - **Application Root**: folderul domeniului (ex: `public_html`)
    - **Application URL**: domeniul tău
-   - **Application Startup File**: `server.js` (Next.js va crea automat)
+   - **Application Startup File**: `.next/standalone/server.js`
 
-3. În **"Application Startup File"**, setează:
-   ```
-   .next/standalone/server.js
-   ```
-   *(Dacă ai rulat build local și ai urcat `.next/`)*
-   
-   SAU
-   ```
-   server.js
-   ```
-   *(Dacă rulezi build pe server)*
-
-4. În **"Application Entry Point"** sau **"App Root"**, setează:
+3. În **"Application Entry Point"** sau **"App Root"**, setează:
    ```
    .next/standalone
    ```
    SAU folderul domeniului tău (ex: `public_html`)
 
-5. **IMPORTANT:** Dacă ai urcat `.next/` de la build-ul local, asigură-te că aplicația Node.js folosește path-ul corect către `.next/standalone/server.js`
+4. **IMPORTANT:** Dacă ai urcat `.next/standalone/` de la build-ul local, asigură-te că aplicația Node.js folosește path-ul corect către `.next/standalone/server.js`
 
-### 5. Varianta Standalone (Recomandat pentru cPanel fără SSH)
+### 5. Pornire Aplicație Node.js în cPanel
 
-**Această variantă este ideală pentru deploy fără SSH!**
+După ce ai configurat Node.js App:
 
-Dacă ai configurat `output: 'standalone'` în `next.config.js`:
+1. În cPanel, mergi la **Node.js Apps**
+2. Găsește aplicația creată
+3. Click pe **"Start App"** sau **"Restart"**
+4. Verifică log-urile pentru erori (dacă e disponibil)
 
-Dacă ai configurat `output: 'standalone'` în `next.config.js`:
-
-**Procesul pas cu pas:**
-
-1. **Local**, rulează:
-   ```bash
-   npm run build
-   ```
-
-2. **După build**, vei avea:
-   - Folder `.next/standalone/` - conține serverul minim
-   - Folder `.next/static/` - assets statice
-   - Folder `public/` - assets publice
-
-3. **Via File Manager**, urci pe server:
-   - ✅ **`.next/`** (intreg folder-ul cu `standalone/` și `static/`)
-   - ✅ **`public/`** (folder cu imagini, video-uri, fonturi)
-   - ✅ **`package.json`** (minimal, pentru configurare Node.js)
-
-4. **Structura pe server va fi:**
-   ```
-   public_html/ (sau domeniu.com/)
-   ├── .next/
-   │   ├── standalone/
-   │   │   └── server.js
-   │   └── static/
-   ├── public/
-   │   ├── fonts/
-   │   └── images/
-   └── package.json
-   ```
-
-**Avantaje:**
-- ✅ Nu ai nevoie de SSH
-- ✅ Build-ul se face local (mai rapid)
-- ✅ Urci doar fișierele necesare
-- ✅ Mai puține dependențe pe server
+**Dacă aplicația nu pornește:**
+- Verifică că path-ul către `server.js` este corect (`.next/standalone/server.js`)
+- Verifică că toate fișierele sunt urcate corect
+- Verifică log-urile în cPanel
 
 ### 6. Configurare .htaccess (dacă e necesar)
 
@@ -187,20 +137,6 @@ Dacă cPanel nu suportă direct Node.js, poți folosi un reverse proxy:
   RewriteRule ^(.*)$ http://localhost:3000/$1 [P,L]
 </IfModule>
 ```
-
-### 6. Pornire Aplicație Node.js în cPanel
-
-După ce ai configurat Node.js App:
-
-1. În cPanel, mergi la **Node.js Apps**
-2. Găsește aplicația creată
-3. Click pe **"Start App"** sau **"Restart"**
-4. Verifică log-urile pentru erori (dacă e disponibil)
-
-**Dacă aplicația nu pornește:**
-- Verifică că path-ul către `server.js` este corect
-- Verifică că toate fișierele sunt urcate corect
-- Verifică log-urile în cPanel
 
 ### 7. Verificare
 
@@ -245,13 +181,13 @@ După ce ai configurat Node.js App:
 - **Soluție:**
   1. Verifică că aplicația Node.js este pornită în cPanel
   2. Verifică log-urile în cPanel Node.js App
-  3. Verifică că path-ul către `server.js` este corect
+  3. Verifică că path-ul către `server.js` este corect (`.next/standalone/server.js`)
   4. Verifică că folder-ul `.next/standalone/` există
 
 **❌ "404 Not Found" pentru pagini**
 - **Soluție:** Verifică că `middleware.ts` este urcat
 - Verifică că `next.config.js` este corect configurat
-- Verifică că toate folderele `app/`, `components/`, `i18n/`, `messages/` sunt urcate
+- Verifică că toate folderele `.next/standalone/`, `.next/static/`, `public/` sunt urcate
 
 **❌ Assets (imagini, video-uri) nu se încarcă**
 - **Soluție:** Verifică că folder-ul `public/` este urcat complet

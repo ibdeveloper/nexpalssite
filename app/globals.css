@@ -4,15 +4,8 @@
 
 /* Critical CSS inline - prevent render blocking */
 
-
-/* Perfectly Nineties Font - Custom font */
-@font-face {
-  font-family: 'Perfectly Nineties';
-  src: url('/fonts/perfectly-nineties-bold-italic.otf') format('opentype');
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
+/* Import Onest font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -40,7 +33,7 @@ html {
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Onest', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -67,12 +60,6 @@ textarea {
   }
 }
 
-/* Perfectly Nineties Font - Custom font */
-.font-perfectly-nineties {
-  font-family: 'Perfectly Nineties', serif;
-  font-weight: bold;
-  font-style: italic;
-}
 
 @layer utilities {
   .text-balance {

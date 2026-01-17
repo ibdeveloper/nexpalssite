@@ -122,7 +122,7 @@ export default function Header() {
               <motion.span
                 whileHover={{ opacity: 0.8 }}
                 whileTap={{ scale: 0.95 }}
-                className="font-perfectly-nineties text-base"
+                className="font-sans text-base font-bold"
               >
                 {t('menu')}
               </motion.span>
@@ -187,7 +187,7 @@ export default function Header() {
                     aria-label="Close menu"
                     style={{ color: '#002BBA' }}
                   >
-                    <span className="font-perfectly-nineties text-lg sm:text-xl">
+                    <span className="font-sans text-lg sm:text-xl font-bold">
                       {t('close')}
                     </span>
                     {/* Close Icon - Circle with X */}
@@ -222,7 +222,7 @@ export default function Header() {
                             color: '#002BBA',
                           }}
                         >
-                          <span className="font-perfectly-nineties text-3xl sm:text-4xl md:text-5xl font-bold">
+                          <span className="font-sans text-3xl sm:text-4xl md:text-5xl font-bold">
                             {item.label}
                           </span>
                         </Link>

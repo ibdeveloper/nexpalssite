@@ -22,8 +22,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap" as="style" />
         <link rel="dns-prefetch" href="https://vitals.vercel-insights.com" />
-        <link rel="preload" href="/fonts/perfectly-nineties-bold-italic.otf" as="font" type="font/otf" crossOrigin="anonymous" />
       </head>
       <body suppressHydrationWarning>
         {children}

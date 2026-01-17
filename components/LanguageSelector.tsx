@@ -69,16 +69,8 @@ export default function LanguageSelector({ scrolled = false }: LanguageSelectorP
     // usePathname() from next-intl returns pathname without locale prefix
     const currentPath = pathname || '/'
     
-    // Use router.replace with locale option for proper navigation
-    // This is the correct way to switch locales in next-intl
+    // Use router.replace with locale option - correct next-intl method
     router.replace(currentPath, { locale: langCode })
-    
-    // Force refresh if needed (helps with Vercel deployment)
-    setTimeout(() => {
-      if (typeof window !== 'undefined') {
-        window.location.reload()
-      }
-    }, 100)
     
     setIsOpen(false)
   }

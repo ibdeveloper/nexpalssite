@@ -27,8 +27,6 @@ const nextConfig = {
   },
   // Reduce JavaScript bundle size
   swcMinify: true,
-  // Optimize CSS
-  optimizeCss: false, // Let Next.js handle it
 };
 
 module.exports = withNextIntl(nextConfig);

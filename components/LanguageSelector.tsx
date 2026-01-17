@@ -66,13 +66,22 @@ export default function LanguageSelector({ scrolled = false }: LanguageSelectorP
       return
     }
 
-    // usePathname() from next-intl returns pathname without locale prefix
-    const currentPath = pathname || '/'
-    
-    // Use router.replace with locale option - correct next-intl method
-    router.replace(currentPath, { locale: langCode })
-    
     setIsOpen(false)
+
+    // Get current pathname (without locale prefix from usePathname)
+    let targetPath = pathname || '/'
+    
+    // Ensure path starts with /
+    if (!targetPath.startsWith('/')) {
+      targetPath = '/' + targetPath
+    }
+
+    // Build the new URL with the new locale
+    const newUrl = `/${langCode}${targetPath === '/' ? '' : targetPath}`
+    
+    // Use window.location for hard navigation - most reliable method
+    // This ensures the page reloads with the new locale
+    window.location.href = newUrl
   }
 
   return (

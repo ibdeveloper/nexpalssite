@@ -147,6 +147,11 @@
       "description": "Klare Strategien und präzise Umsetzung. Mit uns erreicht Ihre Marke ihre Ziele"
     }
   },
+  "portfolioBanner": {
+    "heading": "Positionierung digitaler Innovatoren im Premium-Bereich",
+    "description": "Entdecken Sie unser Portfolio von Projekten und sehen Sie, wie wir Ideen in erfolgreiche digitale Realitäten verwandeln",
+    "button": "Portfolio ansehen"
+  },
   "notFound": {
     "title": "Seite nicht gefunden",
     "description": "Die gesuchte Seite existiert nicht oder wurde verschoben.",

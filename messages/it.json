@@ -147,6 +147,11 @@
       "description": "Strategie chiare ed esecuzione precisa. Con noi, il tuo brand raggiunge i suoi obiettivi"
     }
   },
+  "portfolioBanner": {
+    "heading": "Posizioniamo innovatori digitali nello spazio premium",
+    "description": "Scopri il nostro portfolio di progetti e vedi come trasformiamo le idee in realtà digitali di successo",
+    "button": "Vedi Portfolio"
+  },
   "notFound": {
     "title": "Pagina non trovata",
     "description": "La pagina che stai cercando non esiste o è stata spostata.",

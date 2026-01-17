@@ -60,21 +60,26 @@ export default function LanguageSelector({ scrolled = false }: LanguageSelectorP
   }, [])
 
   const handleLanguageChange = (langCode: string) => {
-    // usePathname() from next-intl should return pathname without locale prefix
-    // But we clean it to ensure no duplicate locale prefixes
-    let cleanPathname = pathname || '/'
-    
-    // Remove any locale prefix that might be in the pathname
-    // Match pattern: /[locale]/ or /[locale]
-    cleanPathname = cleanPathname.replace(/^\/[a-z]{2}(\/.*)?$/, (match, rest) => rest || '/')
-    
-    // Ensure pathname starts with /
-    if (!cleanPathname.startsWith('/')) {
-      cleanPathname = '/' + cleanPathname
+    // Don't change if already on this locale
+    if (langCode === locale) {
+      setIsOpen(false)
+      return
     }
+
+    // usePathname() from next-intl returns pathname without locale prefix
+    const currentPath = pathname || '/'
     
-    // Navigate to the new locale with the clean pathname
-    router.replace(cleanPathname, { locale: langCode })
+    // Use router.replace with locale option for proper navigation
+    // This is the correct way to switch locales in next-intl
+    router.replace(currentPath, { locale: langCode })
+    
+    // Force refresh if needed (helps with Vercel deployment)
+    setTimeout(() => {
+      if (typeof window !== 'undefined') {
+        window.location.reload()
+      }
+    }, 100)
+    
     setIsOpen(false)
   }
 

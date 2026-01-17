@@ -144,7 +144,12 @@
     "personalizationDescription": "Remembers your preferences and provides enhanced features.",
     "analytics": "Analytics",
     "analyticsDescription": "Measures usage and improves your experience.",
-    "rejectAll": "Reject All",
-    "acceptAll": "Accept All"
+    "rejectAll": "Hylkää kaikki",
+    "acceptAll": "Hyväksy kaikki"
+  },
+  "underConstruction": {
+    "title": "Sivu rakenteilla",
+    "description": "Työskentelemme tämän sivun parissa ja valmistamme sen pian. Tarkista myöhemmin uudelleen.",
+    "button": "Takaisin etusivulle"
   }
 }

@@ -144,7 +144,12 @@
     "personalizationDescription": "Remembers your preferences and provides enhanced features.",
     "analytics": "Analytics",
     "analyticsDescription": "Measures usage and improves your experience.",
-    "rejectAll": "Reject All",
-    "acceptAll": "Accept All"
+    "rejectAll": "Отхвърли всичко",
+    "acceptAll": "Приеми всичко"
+  },
+  "underConstruction": {
+    "title": "Страницата е в процес на изграждане",
+    "description": "Работим по тази страница и скоро ще я завършим. Моля, проверете отново по-късно.",
+    "button": "Обратно към началната страница"
   }
 }

@@ -144,7 +144,12 @@
     "personalizationDescription": "Remembers your preferences and provides enhanced features.",
     "analytics": "Analytics",
     "analyticsDescription": "Measures usage and improves your experience.",
-    "rejectAll": "Reject All",
-    "acceptAll": "Accept All"
+    "rejectAll": "Összes elutasítása",
+    "acceptAll": "Összes elfogadása"
+  },
+  "underConstruction": {
+    "title": "Oldal készítés alatt",
+    "description": "Dolgozunk ezen az oldalon és hamarosan befejezzük. Kérjük, később nézzen vissza.",
+    "button": "Vissza a kezdőlapra"
   }
 }

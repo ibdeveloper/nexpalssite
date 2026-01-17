@@ -144,7 +144,12 @@
     "personalizationDescription": "Remembers your preferences and provides enhanced features.",
     "analytics": "Analytics",
     "analyticsDescription": "Measures usage and improves your experience.",
-    "rejectAll": "Reject All",
-    "acceptAll": "Accept All"
+    "rejectAll": "Avvisa alla",
+    "acceptAll": "Godkänn alla"
+  },
+  "underConstruction": {
+    "title": "Sida under konstruktion",
+    "description": "Vi arbetar med denna sida och kommer att slutföra den snart. Vänligen kom tillbaka senare.",
+    "button": "Tillbaka till startsidan"
   }
 }

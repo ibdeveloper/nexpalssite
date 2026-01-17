@@ -146,5 +146,10 @@
     "analyticsDescription": "Meet het gebruik en verbetert uw ervaring.",
     "rejectAll": "Alles weigeren",
     "acceptAll": "Alles accepteren"
+  },
+  "underConstruction": {
+    "title": "Pagina in aanbouw",
+    "description": "We werken aan deze pagina en zullen deze binnenkort voltooien. Kom later terug.",
+    "button": "Terug naar homepage"
   }
 }

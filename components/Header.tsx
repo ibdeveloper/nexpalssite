@@ -23,10 +23,10 @@ export default function Header() {
   }, [])
 
   const navItems = [
-    { href: '/#services', label: t('services') },
-    { href: '/#projects', label: t('projects') },
-    { href: '/#about', label: t('about') },
-    { href: '/#contact', label: t('contact') },
+    { href: '/under-construction', label: t('services') },
+    { href: '/under-construction', label: t('projects') },
+    { href: '/under-construction', label: t('about') },
+    { href: '/under-construction', label: t('contact') },
   ]
 
   return (
@@ -84,11 +84,9 @@ export default function Header() {
             {/* Desktop Navigation */}
             <div className="hidden lg:flex items-center space-x-4 flex-1">
               {navItems.map((item) => (
-                <button
+                <Link
                   key={item.href}
-                  onClick={() => {
-                    alert(t('underConstruction'))
-                  }}
+                  href={item.href}
                   className="text-sm font-medium transition-colors duration-200 relative group cursor-pointer"
                   style={{
                     color: scrolled ? '#002BBA' : '#FFFFFF',
@@ -101,7 +99,7 @@ export default function Header() {
                       backgroundColor: scrolled ? '#002BBA' : '#FFFFFF',
                     }}
                   />
-                </button>
+                </Link>
               ))}
             </div>
           </div>
@@ -216,12 +214,10 @@ export default function Header() {
                   <nav className="w-full max-w-md space-y-0">
                     {navItems.map((item, index) => (
                       <div key={item.href} className="relative">
-                        <button
-                          onClick={() => {
-                            setMobileMenuOpen(false)
-                            alert(t('underConstruction'))
-                          }}
-                          className="w-full text-center py-6 sm:py-8 transition-opacity duration-200 hover:opacity-70"
+                        <Link
+                          href={item.href}
+                          onClick={() => setMobileMenuOpen(false)}
+                          className="w-full text-center py-6 sm:py-8 transition-opacity duration-200 hover:opacity-70 block"
                           style={{
                             color: '#002BBA',
                           }}
@@ -229,7 +225,7 @@ export default function Header() {
                           <span className="font-perfectly-nineties text-3xl sm:text-4xl md:text-5xl font-bold">
                             {item.label}
                           </span>
-                        </button>
+                        </Link>
                         {/* Separator Line - except last item */}
                         {index < navItems.length - 1 && (
                           <div

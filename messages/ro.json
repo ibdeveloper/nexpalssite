@@ -146,5 +146,10 @@
     "analyticsDescription": "Măsoară utilizarea și îmbunătățește experiența dvs.",
     "rejectAll": "Respinge tot",
     "acceptAll": "Acceptă tot"
+  },
+  "underConstruction": {
+    "title": "Pagina este în construcție",
+    "description": "Lucrăm la această pagină și o vom finaliza în curând. Te rugăm să revii mai târziu.",
+    "button": "Înapoi la Pagina Principală"
   }
 }

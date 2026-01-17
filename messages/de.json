@@ -146,5 +146,10 @@
     "analyticsDescription": "Misst die Nutzung und verbessert Ihre Erfahrung.",
     "rejectAll": "Alle ablehnen",
     "acceptAll": "Alle akzeptieren"
+  },
+  "underConstruction": {
+    "title": "Seite im Aufbau",
+    "description": "Wir arbeiten an dieser Seite und werden sie bald fertigstellen. Bitte schauen Sie später noch einmal vorbei.",
+    "button": "Zurück zur Startseite"
   }
 }

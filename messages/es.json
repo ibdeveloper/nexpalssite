@@ -146,5 +146,10 @@
     "analyticsDescription": "Mide el uso y mejora tu experiencia.",
     "rejectAll": "Rechazar todo",
     "acceptAll": "Aceptar todo"
+  },
+  "underConstruction": {
+    "title": "Página en construcción",
+    "description": "Estamos trabajando en esta página y la completaremos pronto. Por favor, vuelva más tarde.",
+    "button": "Volver al inicio"
   }
 }

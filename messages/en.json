@@ -47,6 +47,11 @@
       "description": "Clear strategies and precise execution. With us, your brand achieves its goals"
     }
   },
+  "portfolioBanner": {
+    "heading": "Positioning digital innovators in the premium space",
+    "description": "Discover our portfolio of projects and see how we transform ideas into successful digital realities",
+    "button": "See Portfolio"
+  },
   "services": {
     "title": "Services",
     "subtitle": "Complete solutions for your business digital needs",

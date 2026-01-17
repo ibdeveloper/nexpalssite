@@ -47,6 +47,11 @@
       "description": "Strategii clare și execuție precisă. Cu noi, brandul tău atinge obiectivele setate"
     }
   },
+  "portfolioBanner": {
+    "heading": "Poziționăm inovatori digitali în spațiul premium",
+    "description": "Descoperă portofoliul nostru de proiecte și vezi cum transformăm ideile în realități digitale de succes",
+    "button": "Vezi Portofoliul"
+  },
   "services": {
     "title": "Servicii",
     "subtitle": "Soluții complete pentru nevoile digitale ale afacerii dvs.",

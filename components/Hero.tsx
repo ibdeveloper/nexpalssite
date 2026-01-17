@@ -161,8 +161,8 @@ export default function Hero() {
         </AnimatePresence>
       </div>
 
-      {/* Text Stânga Jos - Responsive */}
-      <div className="absolute bottom-12 sm:bottom-16 md:bottom-20 left-4 sm:left-6 md:left-8 lg:left-12 xl:left-16 right-4 sm:right-6 md:right-auto z-10 max-w-[calc(100%-2rem)] sm:max-w-2xl">
+      {/* Text Stânga Centrat - Responsive */}
+      <div className="absolute top-1/2 left-4 sm:left-6 md:left-8 lg:left-12 xl:left-16 transform -translate-y-1/2 right-4 sm:right-6 md:right-auto z-10 max-w-[calc(100%-2rem)] sm:max-w-2xl">
         <AnimatePresence mode="wait">
           {slides.map(
             (slide, index) =>
@@ -173,7 +173,7 @@ export default function Hero() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}
                   transition={{ duration: 0.8, delay: 0.3, ease: 'easeOut' }}
-                  className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-bold text-white tracking-tight leading-[1.2]"
+                  className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl font-bold text-white tracking-tight leading-[1.2] text-left"
                   style={{ 
                     whiteSpace: 'normal',
                   }}

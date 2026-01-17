@@ -5,6 +5,7 @@ import type { Metadata, Viewport } from 'next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import CookieConsent from '@/components/CookieConsent'
 import SmoothScroll from '@/components/SmoothScroll'
+import LangSetter from '@/components/LangSetter'
 
 // Generate static params for all locales at build time
 export function generateStaticParams() {
@@ -53,6 +54,7 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
+      <LangSetter />
       <SmoothScroll />
       {children}
       <CookieConsent />

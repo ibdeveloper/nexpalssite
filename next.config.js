@@ -19,6 +19,16 @@ const nextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
   },
+  // Target modern browsers to reduce polyfills
+  transpilePackages: [],
+  // Optimize for modern browsers
+  experimental: {
+    optimizePackageImports: ['framer-motion', 'next-intl'],
+  },
+  // Reduce JavaScript bundle size
+  swcMinify: true,
+  // Optimize CSS
+  optimizeCss: false, // Let Next.js handle it
 };
 
 module.exports = withNextIntl(nextConfig);

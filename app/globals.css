@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Critical CSS inline - prevent render blocking */
+
 
 /* Perfectly Nineties Font - Custom font */
 @font-face {

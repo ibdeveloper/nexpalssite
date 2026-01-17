@@ -50,7 +50,7 @@ export default function Mission() {
           <p
             className="font-sans max-w-full md:col-span-4"
             style={{ 
-              color: '#002BBA',
+              color: '#001a7a',
               fontSize: 'clamp(14px, 3.5vw, 30px)',
               fontWeight: 700,
               lineHeight: '1.4',

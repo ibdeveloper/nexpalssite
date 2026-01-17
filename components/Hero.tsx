@@ -27,26 +27,97 @@ export default function Hero() {
 
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
+  const [videosLoaded, setVideosLoaded] = useState<Record<number, boolean>>({})
+
+  // Preload următorul video când se schimbă slide-ul
+  useEffect(() => {
+    const preloadNextVideo = (nextIndex: number) => {
+      const nextSlide = slides[nextIndex]
+      if (!nextSlide || videosLoaded[nextIndex]) return
+
+      const video = document.createElement('video')
+      video.preload = 'auto'
+      video.muted = true
+      video.src = nextSlide.video
+      
+      video.oncanplaythrough = () => {
+        setVideosLoaded((prev) => ({ ...prev, [nextIndex]: true }))
+      }
+    }
+
+    // Preload următorul și următorul-următorul
+    const nextIndex = (currentSlide + 1) % slides.length
+    const afterNextIndex = (currentSlide + 2) % slides.length
+    preloadNextVideo(nextIndex)
+    preloadNextVideo(afterNextIndex)
+  }, [currentSlide, slides, videosLoaded])
+
+  useEffect(() => {
+    // Preload primul video la mount
+    if (slides[0] && !videosLoaded[0]) {
+      const video = document.createElement('video')
+      video.preload = 'auto'
+      video.muted = true
+      video.src = slides[0].video
+      
+      video.oncanplaythrough = () => {
+        setVideosLoaded((prev) => ({ ...prev, [0]: true }))
+      }
+    }
+  }, [slides, videosLoaded])
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIsAnimating(true)
-      setTimeout(() => {
-        setCurrentSlide((prev) => (prev + 1) % slides.length)
-        setIsAnimating(false)
-      }, 300) // Delay pentru crossfade
+      const nextSlide = (currentSlide + 1) % slides.length
+      
+      // Dacă video-ul următor este încărcat, schimbă slide-ul
+      if (videosLoaded[nextSlide] || videosLoaded[currentSlide]) {
+        setIsAnimating(true)
+        setTimeout(() => {
+          setCurrentSlide(nextSlide)
+          setIsAnimating(false)
+        }, 300) // Delay pentru crossfade
+      }
     }, 6000) // 6 secunde
 
     return () => clearInterval(interval)
-  }, [slides.length])
+  }, [currentSlide, slides.length, videosLoaded])
 
   const goToSlide = (index: number) => {
     if (index !== currentSlide && !isAnimating) {
-      setIsAnimating(true)
-      setTimeout(() => {
-        setCurrentSlide(index)
-        setIsAnimating(false)
-      }, 300)
+      // Preload video-ul dacă nu este încărcat
+      if (!videosLoaded[index] && slides[index]) {
+        const video = document.createElement('video')
+        video.preload = 'auto'
+        video.muted = true
+        video.src = slides[index].video
+        
+        video.oncanplaythrough = () => {
+          setVideosLoaded((prev) => ({ ...prev, [index]: true }))
+          setIsAnimating(true)
+          setTimeout(() => {
+            setCurrentSlide(index)
+            setIsAnimating(false)
+          }, 300)
+        }
+        
+        // Timeout fallback - schimbă slide-ul după 2 secunde chiar dacă nu s-a încărcat
+        setTimeout(() => {
+          if (!videosLoaded[index]) {
+            setIsAnimating(true)
+            setTimeout(() => {
+              setCurrentSlide(index)
+              setIsAnimating(false)
+            }, 300)
+          }
+        }, 2000)
+      } else {
+        setIsAnimating(true)
+        setTimeout(() => {
+          setCurrentSlide(index)
+          setIsAnimating(false)
+        }, 300)
+      }
     }
   }
 
@@ -72,10 +143,13 @@ export default function Hero() {
                     loop
                     muted
                     playsInline
-                    preload={index === 0 ? 'metadata' : 'none'}
+                    preload="auto"
                     className="w-full h-full object-cover"
                     aria-label={`Background video ${slide.id}`}
                     poster=""
+                    onLoadedData={() => {
+                      setVideosLoaded((prev) => ({ ...prev, [index]: true }))
+                    }}
                   >
                     <source src={slide.video} type="video/mp4" />
                   </video>

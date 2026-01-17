@@ -83,17 +83,21 @@ export default function LanguageSelector({ scrolled = false }: LanguageSelectorP
     setIsOpen(false)
     setSearchQuery('')
 
-    // usePathname() from next-intl returns pathname without locale prefix
-    // But we need to extract the path without the current locale if it's in the URL
-    let targetPath = pathname || '/'
+    // Get current URL to extract the path
+    const currentUrl = typeof window !== 'undefined' ? window.location.pathname : '/'
     
-    // Remove any locale prefix that might still be in pathname
-    // This handles cases where pathname might contain the locale
+    // Extract path without locale prefix from current URL
+    // Pattern: /[locale]/[path] or /[locale]
     const localePattern = new RegExp(`^/(${routing.locales.join('|')})(/.*)?$`)
-    const match = targetPath.match(localePattern)
-    if (match && match[2]) {
-      // Extract path after locale
+    const match = currentUrl.match(localePattern)
+    
+    let targetPath = '/'
+    if (match) {
+      // If match found, extract path after locale
       targetPath = match[2] || '/'
+    } else {
+      // If no locale in URL, use pathname from next-intl (should be without locale)
+      targetPath = pathname || '/'
     }
     
     // Ensure path starts with /
@@ -101,8 +105,10 @@ export default function LanguageSelector({ scrolled = false }: LanguageSelectorP
       targetPath = '/' + targetPath
     }
 
-    // Build new URL with new locale
-    const newUrl = `/${langCode}${targetPath === '/' ? '' : targetPath}`
+    // Build new URL with new locale - always use root path for homepage
+    const newUrl = targetPath === '/' ? `/${langCode}` : `/${langCode}${targetPath}`
+    
+    // Navigate to new URL
     window.location.href = newUrl
   }
 

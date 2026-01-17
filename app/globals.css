@@ -24,7 +24,8 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  /* Disable default smooth scroll - we'll use custom JS for slower, smoother scroll */
+  scroll-behavior: auto;
 }
 
 body {

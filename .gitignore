@@ -49,3 +49,7 @@ logs
 
 # Build outputs (optional - poți include dacă nu vrei să urci build-ul)
 # .next/
+
+# Large files - fișiere mari care nu trebuie în repo
+*.zip
+Arhivă.zip

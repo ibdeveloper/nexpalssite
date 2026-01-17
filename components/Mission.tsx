@@ -41,7 +41,7 @@ export default function Mission() {
             transition={{ duration: 1, ease: 'easeOut' }}
             className="mb-4 sm:mb-6 md:mb-0 md:col-span-1"
           >
-            <h2 className="font-perfectly-nineties text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-[1.1] md:leading-tight" style={{ color: '#002BBA' }}>
+            <h2 className="font-perfectly-nineties text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-[1.1] md:leading-tight" style={{ color: '#001a7a' }}>
               {t('title')}
             </h2>
           </motion.div>

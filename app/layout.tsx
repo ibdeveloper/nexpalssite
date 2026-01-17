@@ -23,6 +23,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://vitals.vercel-insights.com" />
+        <link rel="preload" href="/fonts/perfectly-nineties-bold-italic.otf" as="font" type="font/otf" crossOrigin="anonymous" />
       </head>
       <body suppressHydrationWarning>
         {children}

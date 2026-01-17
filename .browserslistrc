@@ -1,0 +1,23 @@
+# Target modern browsers to reduce polyfills
+# This will significantly reduce JavaScript bundle size by avoiding polyfills for older browsers
+
+# Modern browsers (last 2 versions)
+last 2 versions
+
+# Browsers with > 1% market share
+> 1%
+
+# Not IE
+not dead
+not IE 11
+
+# Modern mobile browsers
+iOS >= 14
+Safari >= 14
+
+# Modern Chrome/Firefox
+Chrome >= 90
+Firefox >= 88
+
+# Modern Edge
+Edge >= 90

@@ -30,6 +30,8 @@ const languages = [
   { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
   { code: 'sl', name: 'Slovenščina', flag: '🇸🇮' },
   { code: 'sv', name: 'Svenska', flag: '🇸🇪' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+  { code: 'ua', name: 'Українська', flag: '🇺🇦' },
 ]
 
 interface LanguageSelectorProps {

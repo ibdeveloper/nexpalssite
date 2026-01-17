@@ -127,6 +127,26 @@
     "webDesign": "Design web",
     "webDevelopment": "Desenvolvimento web"
   },
+  "whyUs": {
+    "heading": "Por que Nexpals?",
+    "subheading": "Somos uma agência digital moderna. Aqui estão algumas de nossas vantagens",
+    "support": {
+      "title": "Suporte dedicado",
+      "description": "Respondemos no chat ou telefone sempre que precisar. Rápido e direto"
+    },
+    "design": {
+      "title": "Design premium",
+      "description": "Criamos identidades visuais fortes e memoráveis. Seu design em mãos confiáveis"
+    },
+    "technology": {
+      "title": "Tecnologia moderna",
+      "description": "Usamos tecnologias de ponta para criar soluções digitais de alto desempenho e escaláveis"
+    },
+    "results": {
+      "title": "Resultados mensuráveis",
+      "description": "Estratégias claras e execução precisa. Conosco, sua marca atinge seus objetivos"
+    }
+  },
   "notFound": {
     "title": "Página não encontrada",
     "description": "A página que você está procurando não existe ou foi movida.",

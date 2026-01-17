@@ -60,7 +60,21 @@ export default function LanguageSelector({ scrolled = false }: LanguageSelectorP
   }, [])
 
   const handleLanguageChange = (langCode: string) => {
-    router.replace(pathname, { locale: langCode })
+    // usePathname() from next-intl should return pathname without locale prefix
+    // But we clean it to ensure no duplicate locale prefixes
+    let cleanPathname = pathname || '/'
+    
+    // Remove any locale prefix that might be in the pathname
+    // Match pattern: /[locale]/ or /[locale]
+    cleanPathname = cleanPathname.replace(/^\/[a-z]{2}(\/.*)?$/, (match, rest) => rest || '/')
+    
+    // Ensure pathname starts with /
+    if (!cleanPathname.startsWith('/')) {
+      cleanPathname = '/' + cleanPathname
+    }
+    
+    // Navigate to the new locale with the clean pathname
+    router.replace(cleanPathname, { locale: langCode })
     setIsOpen(false)
   }
 
